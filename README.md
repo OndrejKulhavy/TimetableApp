@@ -1,7 +1,11 @@
-| Day       | 1    | 2   | 3   | 4   | 5   | 6    | 7    | 8    | 9    | 10   |
-|-----------|------|-----|-----|-----|-----|------|------|------|------|------|
-| Monday    | WA   | WA  | C   | A   | M   | None | PV   | PV   | None | None |
-| Tuesday   | M    | TP  | DS  | DS  | A   | AM   | None | TV   | None | None |
-| Wednesday | PIS  | C   | CIT | CIT | AM  | M    | DS   | None | None | None |
-| Thursday  | WA   | M   | PIS | PV  | A   | C    | PSS  | None | None | None |
-| Friday    | None | PIS | PIS | A   | TV  | PSS  | PSS  | None | None | None |
+# **Alpha One** | TimetableApp 📅
+
+Welcome to **Alpha One** | TimetableApp! This project is a school project designed to optimize and create various schedules based on your preferences and constraints.
+
+### Components
+
+1. **Generator 🔄**: This component generates various versions of the given timetable. It explores different permutations and variations, attempting to swap subjects, move classes around, etc. The goal is quantity rather than quality.
+
+2. **Evaluator 🧮**: Evaluates the generated timetable variations based on a set of rules and assigns points. Rules include considerations like avoiding repeated subjects in a day, minimizing movement between floors, ensuring breaks for lunch, and more.
+
+3. **Watchdog ⏱️**: Monitors the execution time. If the program runs beyond a user-defined timeout (default: 3 minutes), it terminates all activities and displays the results, even if not all variations have been evaluated. 
